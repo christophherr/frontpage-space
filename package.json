@@ -1,0 +1,14 @@
+{
+    "name": "christophherrspace",
+    "version": "1.0.0",
+    "description": "Portfolio template for apps on christophherr.space",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Christoph Herr",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "express": "^4.15.3"
+    }
+}

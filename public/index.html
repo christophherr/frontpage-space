@@ -1,0 +1,161 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christoph Herr - JavaScript Showcase</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
+    crossorigin="anonymous">
+  <!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <!--<![endif]-->
+  <link rel="stylesheet" href="/src/style.min.css">
+</head>
+
+<body>
+
+  <div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+      <!-- Hamburger icon -->
+      <span></span>
+    </a>
+
+    <div id="menu">
+      <div class="pure-menu">
+        <div class="pure-menu-heading"><img class="pure-img" src="/static/solutions.jpg">
+          <h3>Christoph Herr</h3>
+          <p>Solutions for <br> Your Online Business.</p>
+          <a href="https://www.christophherr.com">www.christophherr.com</a>
+        </div>
+
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
+          <li class="pure-menu-item"><a href="https://www.christophherr.com/about" class="pure-menu-link">About</a></li>
+          <li class="pure-menu-item"><a href="https://www.christophherr.com/" class="pure-menu-link">Services</a></li>
+          <li class="pure-menu-item"><a href="https://www.christophherr.com/contact" class="pure-menu-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="main">
+      <div class="header">
+        <h1>Coding Project Showcase</h1>
+        <h2>A work in progress.</h2>
+      </div>
+      <div class="content">
+        <div class="pure-button-group" role="group" aria-label="Filter for the technology used in the projects.">
+          <button class="pure-button is-checked" data-filter="*">All projects</button>
+          <button class="pure-button" data-filter=".front">Front end</button>
+          <button class="pure-button" data-filter=".full">Full stack</button>
+          <button class="pure-button" data-filter=".js">Javascript</button>
+          <button class="pure-button" data-filter=".vue">Vue.js</button>
+          <button class="pure-button" data-filter=".plotly">Plotly.js</button>
+          <button class="pure-button" data-filter=".d3">D3.js</button>
+          <button class="pure-button" data-filter=".node">Node.js</button>
+        </div>
+        <div class="grid">
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box vue front" data-category="vue, front">
+              <a href="https://frontend.christophherr.space/recipebox"><img class="pure-img" src="/static/recipebox.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/recipebox">Recipe Box with Vue.js and local storage</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box vue front" data-category="vue, full">
+              <a href="https://vuestocks.christophherr.space/"><img class="pure-img" src="/static/vuestocks.jpg"></a>
+              <p><a href="https://vuestocks.christophherr.space/">Stock application with Vue.js and Socket.io</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box vue front" data-category="vue, front">
+              <a href="https://frontend.christophherr.space/leaderboard"><img class="pure-img" src="/static/leaderboard.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/leaderboard">freeCodeCamp Leaderboard with Vue.js</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box vue front" data-category="vue, front">
+              <a href="https://frontend.christophherr.space/markdown"><img class="pure-img" src="/static/markdown.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/markdown">Markdown Previewer with Vue.js</a>
+              </p>
+            </div>
+          </div>
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js front" data-category="js, front">
+              <a href="https://frontend.christophherr.space/calculator"><img class="pure-img" src="/static/calculator.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/calculator">Calculator</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js front" data-category="js, front">
+              <a href="https://frontend.christophherr.space/drummachine"><img class="pure-img" src="/static/drummachine.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/drummachine">Drum Machine</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js front" data-category="js, front">
+              <a href="https://frontend.christophherr.space/localweather"><img class="pure-img" src="/static/localweather.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/localweather">Show the Local Weather</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js front" data-category="js, front">
+              <a href="https://frontend.christophherr.space/pomodoro"><img class="pure-img" src="/static/pomodoro.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/pomodoro">Pomodoro Timer</a>
+              </p>
+            </div>
+          </div>
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js front" data-category="js, front">
+              <a href="https://frontend.christophherr.space/randomquote"><img class="pure-img" src="/static/randomquote.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/randomquote">Random Quote Generator</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js front" data-category="js, front">
+              <a href="https://frontend.christophherr.space/wikipediaviewer"><img class="pure-img" src="/static/wikipediaviewer.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/wikipediaviewer">Wikipedia Viewer</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js full" data-category="js, full">
+              <a href="https://tictactoe.christophherr.space/"><img class="pure-img" src="/static/tictactoe.jpg"></a>
+              <p><a href="https://tictactoe.christophherr.space/">Tic Tac Toe Game</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box js front" data-category="js, front">
+              <a href="https://frontend.christophherr.space/simon"><img class="pure-img" src="/static/simon.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/simon">Simon Game</a>
+              </p>
+            </div>
+          </div>
+          <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box plotly front" data-category="plotly, front">
+              <a href="https://frontend.christophherr.space/meteorlandings"><img class="pure-img" src="/static/meteorlandings.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/meteorlandings">Meteor Landings</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box d3 front" data-category="d3, front">
+              <a href="https://frontend.christophherr.space/forcedirected"><img class="pure-img" src="/static/forcedirected.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/forcedirected">Force Directed Graph</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box plotly front" data-category="plotly, front">
+              <a href="https://frontend.christophherr.space/heatmap"><img class="pure-img" src="/static/heatmap.jpg"></a>
+              <p><a href="https://frontend.christophherr.space/heatmap">Heatmap</a>
+              </p>
+            </div>
+            <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-3 pure-u-xl-1-4 l-box node full" data-category="node, full">
+              <a href="https://urlshortener.christophherr.space/"><img class="pure-img" src="/static/urlshortener.jpg"></a>
+              <p><a href="https://urlshortener.christophherr.space/">Url Shortener</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer> &copy; 2017 <a href="https://www.christophherr.com">Christoph Herr</a></footer>
+  </div>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="src/app.min.js"></script>
+
+</body>
+
+</html>
